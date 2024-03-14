@@ -1,14 +1,39 @@
-.custom-button{
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 1px;
-    cursor: pointer;
-    border-radius: 10px;
-
+.box {
+    width: 200px; 
+    height: 150px; 
+    padding: 20px; 
+    border: 2px solid black; 
+    margin: 30px; 
+    background-color: lightgray; 
 }
+
+h1 {
+    color: red;
+    background-color: blue;
+}
+
+h2 {
+    color: blue;
+    background-color: green;
+}
+
+h3 {
+    color: green;
+    background-color: red;
+}
+
+h4 {
+    color: orange;
+    background-color: blue;
+}
+
+h5 {
+    color: purple;
+    background-color: teal;
+}
+
+h6 {
+    color: teal;
+    background-color: orange;
+}
+
