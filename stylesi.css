@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  .imagem {
+    width: 100%;
+    padding: 5px 10px;
+    overflow: hidden; /* Para garantir que a imagem não ultrapasse os limites da div */
+  }
+    
+  .conteudo-esquerda {
+    width: 10%;
+    float: left;
+    text-align: center; /* Centralizar o conteúdo horizontalmente */
+    margin-top: 20px; /* Adicionar margem superior para separar da imagem */
+    color: #333; /* Cor do texto */
+  }
+  
+  .conteudo-esquerda img {
+    width: 80%; /* Definir a largura da imagem */
+    max-width: 400px; /* Limitar a largura máxima da imagem */
+    display: block; /* Remover espaços extras ao redor da imagem */
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+  }
+  
+  .conteudo-esquerda p {
+    margin-top: 10px; /* Adicionar margem acima do texto */
+  }
+
+  .outra-imagem {
+    width: 10%;
+    float: left;
+    text-align: center; /* Centralizar o conteúdo horizontalmente */
+    margin-top: 20px; /* Adicionar margem superior para separar da imagem */
+    color: #333;
+  }
+  
+  .outra-imagem img {
+    width: 80%; /* Definir a largura da imagem */
+    max-width: 400px; /* Limitar a largura máxima da imagem */
+    display: block; /* Remover espaços extras ao redor da imagem */
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+  }
+  
+  .imagemsuporte {
+    width: 10%;
+    float: left;
+    text-align: center; /* Centralizar o conteúdo horizontalmente */
+    margin-top: 20px; /* Adicionar margem superior para separar da imagem */
+    color: #333;
+  }
+  
+  .imagemsuporte img {
+    width: 80%; /* Definir a largura da imagem */
+    max-width: 400px; /* Limitar a largura máxima da imagem */
+    display: block; /* Remover espaços extras ao redor da imagem */
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+  }
+  
+  
+  
